@@ -14,10 +14,8 @@ class Card extends React.Component {
         <div className={styles.component}>
           <p>{this.props.title}</p>
         </div>
-      )
+      );
     }
+}
   
-  
-  }
-  
-  export default Card;
+export default Card;
